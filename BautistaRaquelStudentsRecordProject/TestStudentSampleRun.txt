@@ -1,0 +1,51 @@
+"C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\jbr\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\lib\idea_rt.jar=51480:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\User\Documents\1RAQUEL\SCHOOL\CS122\BautistaRaquelStudentsRecordProject\out\production\BautistaRaquelStudentsRecordProject TestStudent
+STUDENT DETAILS
+Enter id number of the student: 2200333
+Enter name of student: John Doe
+Enter program of student: BSCS1
+Enter year level of student: 1
+PRELIMS
+Enter perfect prelim raw score:50
+Enter student's raw score for prelims: 45
+Enter perfect prelim exam score: 90
+Enter student's prelim exam score: 88
+MIDTERMS
+Enter perfect midterm raw score: 60
+Enter student's raw score for midterms: 34
+Enter perfect midterm exam score: 100
+Enter student's midterm exam score: 80
+FINALS
+Enter perfect finals raw score: 60
+Enter student's raw score for finals: 100
+You have to enter a number from 0 to 60.
+56
+Enter perfect finals exam score: 100
+Enter student's final exam score: 90
+PERCENTAGE
+Prelim(%): 
+25
+Midterm(%): 
+35
+Finals(%): 
+40
+
+------------------------------------------------------------------------
+ID Number :              2200333                                 
+Name of Student :        John Doe                                
+Program :                BSCS1                                   
+Year Level :             1                                       
+
+Periodic total scores for all requirements
+Prelims : 45    Midterms : 34    Finals :  56    
+
+Periodic Examination Scores
+Prelims : 88    Midterms: 80    Finals:   90    
+
+Periodic Grades
+Prelims : 83    Midterms: 79    Finals:   87    
+
+FINAL GRADE :  83        Remarks : PASSED
+
+===================================================
+
+Process finished with exit code 0
