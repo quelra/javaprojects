@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="heidi" id="0" name="SolutionsTest" package="" skipped="0" tests="13" time="0.047" timestamp="2021-11-01T16:07:02">
+      <properties>
+          <property name="java.vendor" value="Azul Systems, Inc." />
+
+          <property name="result.exec.file" value="target/jacoco.exec" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="docs.dir" value="docs" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Zulu\zulu-8\jre\lib\resources.jar;C:\Program Files\Zulu\zulu-8\jre\lib\rt.jar;C:\Program Files\Zulu\zulu-8\jre\lib\sunrsasign.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jsse.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jce.jar;C:\Program Files\Zulu\zulu-8\jre\lib\charsets.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jfr.jar;C:\Program Files\Zulu\zulu-8\jre\classes" />
+
+          <property name="classesB.dir" value="classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\apache-ant-1.10.12" />
+
+          <property name="jar.dir" value="build/jar" />
+
+          <property name="java.runtime.version" value="1.8.0_282-b08" />
+
+          <property name="ant.file.Teamba3.0" value="C:\SAmple\Teamba3.0(rev9)\build.xml" />
+
+          <property name="user.name" value="batar" />
+
+          <property name="junit.file" value="lib/junit/jar/junit.jar" />
+
+          <property name="build.dir" value="build" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-8\jre\bin" />
+
+          <property name="ant.project.default-target" value="main" />
+
+          <property name="doc.dir" value="doc" />
+
+          <property name="ant.project.name" value="Teamba3.0" />
+
+          <property name="java.version" value="1.8.0_282" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Zulu\zulu-8\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="classes.dir" value="build/classes" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="build.test.path" value="C:\SAmple\Teamba3.0(rev9)\lib\junit\test" />
+
+          <property name="user.country" value="PH" />
+
+          <property name="hamcrest.file" value="lib/junit/jar/hamcrest-core-1.3.jar" />
+
+          <property name="java.home" value="C:\Program Files\Zulu\zulu-8\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\SAmple\Teamba3.0(rev9)\build.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="result.report.dir" value="target/site/jacoco" />
+
+          <property name="report-dir" value="lib/junit/html-report" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.282-b08" />
+
+          <property name="ant.file.type.Teamba3.0" value="file" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\apache-ant-1.10.12\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="sun.stdout.encoding" value="cp437" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\batar" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="C:\Program Files\Zulu\zulu-8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Zulu\zulu-8\bin\;C:\Program Files\Java\omniORBpy-4.2.0-win64-py27\omniORBpy-4.2.0\bin\x86_win32;C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\Program Files\Amazon Corretto\jdk11.0.10_9\bin;C:\Program Files\Amazon Corretto\jdk1.8.0_282\bin;C:\Program Files\AdoptOpenJDK\jdk-8.0.282.8-hotspot\bin;C:\Program Files\AdoptOpenJDK\jre-8.0.282.8-hotspot\bin;C:\Program Files\AdoptOpenJDK\jre-11.0.10.9-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\batar\IdeaProjects\;C:\Library\Developer\Toolchains\unknown-Asserts-development.xctoolchain\usr\bin;C:\Library\Swift-development\bin;C:\Library\icu-67\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\zulu8.52.0.23-ca-jdk8.0.282-win_x64\bin\;C:\apache-ant-1.10.12\bin;C:\JUnit\junit-4.13.2.jar;C:\Users\batar\AppData\Local\Microsoft\WindowsApps;C:\Users\batar\AppData\Local\Programs\Git\cmd;;C:\Users\batar\AppData\Local\Programs\Fiddler;." />
+
+          <property name="java.vendor.url" value="http://www.azulsystems.com/" />
+
+          <property name="java.vm.vendor" value="Azul Systems, Inc." />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp C:\SAmple\Teamba3.0\src;%CLASSPATH%;C:\JUnit\junit-4.13.2.jar;.;C:\JUnit\hamcrest-core-1.3.JAR; test-junit" />
+
+          <property name="java.class.path" value="C:\apache-ant-1.10.12\lib\ant-launcher.jar;C:\SAmple\Teamba3.0\src;C:\JUnit\junit-4.13.2.jar;C:\SAmple\Teamba3.0(rev9)\.\;C:\JUnit\hamcrest-core-1.3.JAR;C:\apache-ant-1.10.12\lib\ant-antlr.jar;C:\apache-ant-1.10.12\lib\ant-apache-bcel.jar;C:\apache-ant-1.10.12\lib\ant-apache-bsf.jar;C:\apache-ant-1.10.12\lib\ant-apache-log4j.jar;C:\apache-ant-1.10.12\lib\ant-apache-oro.jar;C:\apache-ant-1.10.12\lib\ant-apache-regexp.jar;C:\apache-ant-1.10.12\lib\ant-apache-resolver.jar;C:\apache-ant-1.10.12\lib\ant-apache-xalan2.jar;C:\apache-ant-1.10.12\lib\ant-commons-logging.jar;C:\apache-ant-1.10.12\lib\ant-commons-net.jar;C:\apache-ant-1.10.12\lib\ant-imageio.jar;C:\apache-ant-1.10.12\lib\ant-jai.jar;C:\apache-ant-1.10.12\lib\ant-javamail.jar;C:\apache-ant-1.10.12\lib\ant-jdepend.jar;C:\apache-ant-1.10.12\lib\ant-jmf.jar;C:\apache-ant-1.10.12\lib\ant-jsch.jar;C:\apache-ant-1.10.12\lib\ant-junit.jar;C:\apache-ant-1.10.12\lib\ant-junit4.jar;C:\apache-ant-1.10.12\lib\ant-junitlauncher.jar;C:\apache-ant-1.10.12\lib\ant-launcher.jar;C:\apache-ant-1.10.12\lib\ant-netrexx.jar;C:\apache-ant-1.10.12\lib\ant-swing.jar;C:\apache-ant-1.10.12\lib\ant-testutil.jar;C:\apache-ant-1.10.12\lib\ant-xz.jar;C:\apache-ant-1.10.12\lib\ant.jar;C:\Program Files\Zulu\zulu-8\lib\tools.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+
+          <property name="project.name" value="Teamba3.0" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\batar\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Zulu\zulu-8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\SAmple\Teamba3.0(rev9)" />
+
+          <property name="junit-xml-dir" value="lib/junit/junitreports" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="result.dir" value="target" />
+
+          <property name="jdk.vendor.version" value="Zulu 8.52.0.23-CA-win64" />
+
+          <property name="basedir" value="C:\SAmple\Teamba3.0(rev9)" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\apache-ant-1.10.12\lib\ant.jar" />
+
+          <property name="test.path" value="C:\SAmple\Teamba3.0(rev9)\src" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="sun.stderr.encoding" value="cp437" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="ant.project.invoked-targets" value="test-junit" />
+
+      </properties>
+
+      <testcase classname="SolutionsTest" name="dislikeOfThrees" time="0.0" />
+
+      <testcase classname="SolutionsTest" name="helpFarAwayKingdom" time="0.016" />
+
+      <testcase classname="SolutionsTest" name="splits" time="0.0" />
+
+      <testcase classname="SolutionsTest" name="luckyTicket" time="0.0" />
+
+      <testcase classname="SolutionsTest" name="elections" time="0.0" />
+
+      <testcase classname="SolutionsTest" name="aNewPassword" time="0.0" />
+
+      <testcase classname="SolutionsTest" name="theMiracleAndTheSleeper" time="0.0" />
+
+      <testcase classname="SolutionsTest" name="theSumOf2050" time="0.0" />
+
+      <testcase classname="SolutionsTest" name="main" time="0.0" />
+
+      <testcase classname="SolutionsTest" name="passwordCheck" time="0.0" />
+
+      <testcase classname="SolutionsTest" name="spyDetected" time="0.0" />
+
+      <testcase classname="SolutionsTest" name="boyOrGirl" time="0.0" />
+
+      <testcase classname="SolutionsTest" name="watermelon" time="0.0" />
+
+      <system-out><![CDATA[Dislike Of Threes Method
+1
+Dislike Of Threes Method
+2
+Dislike Of Threes Method
+4
+Dislike Of Threes Method
+5
+Dislike Of Threes Method
+7
+Dislike Of Threes Method
+8
+Dislike Of Threes Method
+10
+Dislike Of Threes Method
+11
+Dislike Of Threes Method
+14
+Dislike Of Threes Method
+1666
+Help Far Away Kingdom Method
+0
+Help Far Away Kingdom Method
+1
+Help Far Away Kingdom Method
+3
+Help Far Away Kingdom Method
+3
+Help Far Away Kingdom Method
+12345678
+Help Far Away Kingdom Method
+GOTO Vasilisa.
+Splits Method
+4
+Splits Method
+2
+Splits Method
+5
+Splits Method
+5
+Splits Method
+79
+Lucky Ticket Method
+NO
+Lucky Ticket Method
+NO
+Lucky Ticket Method
+NO
+Lucky Ticket Method
+YES
+Lucky Ticket Method
+YES
+Elections Method
+1 1 1
+66 0 61
+5 5 0
+0 1001 1001
+1000000001 0 1000000001
+Elections Method
+0 23 40
+34 0 50
+655 633 0
+11 5 0
+Elections Method
+33 0 30
+57 52 0
+12 0 21
+A New Password Method
+abab
+A New Password Method
+abcde
+A New Password Method
+abcabc
+A New Password Method
+aa
+A New Password Method
+abcdabc
+The Miracle and The Sleeper Method
+0
+1
+12
+499999999
+The Miracle and The Sleeper Method
+1
+37737936
+5
+The Miracle and The Sleeper Method
+3
+43
+12
+499999999
+44
+The Miracle and The Sleeper Method
+16
+46
+The Sum Of 2050 Method
+-1
+1
+2
+1
+2
+36
+The Sum Of 2050 Method
+-1
+-1
+The Sum Of 2050 Method
+3
+Password Check Method
+Password check: 
+Too weak
+Password Check Method
+Password check: 
+Too weak
+Password Check Method
+Password check: 
+Too weak
+Password Check Method
+Password check: 
+Correct
+Password Check Method
+Password check: 
+Correct
+Spy Detected Method
+2
+1
+5
+3
+Spy Detected Method
+3
+5
+Spy Detected Method
+3
+1
+Spy Detected Method
+5
+4
+2
+Boy Or Girl Method
+IGNORE HIM!
+Boy Or Girl Method
+CHAT WITH HER!
+Boy Or Girl Method
+CHAT WITH HER!
+Watermelon Method
+NO
+Watermelon Method
+YES
+Watermelon Method
+NO
+Watermelon Method
+YES
+Watermelon Method
+NO
+Watermelon Method
+YES
+Watermelon Method
+NO
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
