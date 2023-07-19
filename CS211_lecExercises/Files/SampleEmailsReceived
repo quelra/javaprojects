@@ -1,0 +1,5 @@
+subject,recipient,sender,body,attachments,location(primary/social/promotions)
+Project,me,123@gmail.com,This is to inform you to make a project, none ,primary
+Bank,me,bank@gmail.com,Statement of account,SOA.pdf,primary
+Birthday,me,Facebook,dsafsadfas,pic.jpeg,social
+sampleSubject,recipient1/recipient2/recipient3,sampleSender,body,attachment1/attachment2,promotions
