@@ -1,0 +1,124 @@
+Computer Programming 2
+
+Final Exercise 1
+
+Problem Statement:
+Consider an interface named Encryptable with the following content:
+
+public interface Encryptable { 
+     public void encrypt(); 
+     public String decrypt();
+ }
+
+This interface is implemented by the Secret class using the Caesar cipher algorithm.
+Definition of the class is as follows:
+(Note: you may read about the Caesar cipher from other sources)
+
+ public class Secret implements Encryptable { 
+     private String message; 
+     private boolean encrypted; 
+     private int shift; 
+     private Random generator; 
+        
+     public Secret (String msg) { 
+           message = msg; 
+           encrypted = false; 
+           generator = new Random(); 
+           shift = generator.nextInt(10) + 5; 
+     }     
+
+     public void encrypt() { 
+          if (!encrypted) { 
+               String masked = ""; 
+               for (int index = 0; index < message.length(); index++) { 
+                    masked += (char)(message.charAt(index) + shift); 
+                } 
+                message = masked; 
+                encrypted = true; 
+          } 
+     }     
+
+     public String decrypt() { 
+          if (encrypted) { 
+               String unmasked = ""; 
+               for (int index = 0; index < message.length(); index++) { 
+                    unmasked += (char)(message.charAt(index) - shift); 
+               } 
+               message = unmasked; 
+               encrypted = false; 
+          } 
+          return message; 
+     }     
+
+     public boolean isEncrypted() { 
+          return encrypted; 
+     }     
+
+     public String toString() { 
+         return message; 
+     }
+ }
+
+The SecretTest class is used to check whether the implementing class is working.
+Definition of the class is provided below:
+
+public class SecretTest { 
+     public static void main(String[] args) { 
+             Secret msg = new Secret("Interest is a key to success. People with passion are fortunate.");
+             System.out.println(msg);
+
+             msg.encrypt();
+             System.out.println(msg);
+
+             msg.decrypt();
+             System.out.println(msg);
+     } 
+}
+
+Note that the msg variable is of type Secret (the interface) and such is considered to be a reference variable.
+The variable can reference any object derived from a class that has implemented the Secret interface.
+This approach has the advantage in situations where you might consider changing the object that will be
+referenced over time (e.g. using another encryption technique that is more complex).
+
+Required topic readings:
+For this activity, refer to your copy of the Java tutorials particularly on the Interfaces trail.
+Link to the topic is provided below in case you don’t have a local copy of the Java tutorials:
+	Interfaces: https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html
+
+Requirement:
+
+After testing the given classes (i.e. Trace the output of SecretTest ), create another version of
+the Secret class.  Let <YourName>Secret.java (e.g. DelacruzJuanSecret.java) be the
+name of the new version. The new version should implement the XOR cipher algorithm instead of the Caesar
+cipher algorithm.  Hence, you have to read about the XOR algorithm, then implement the algorithm
+in the encrypt method and the decrypt method. You have to use the same method names (encrypt and decrypt) in
+<YourName>Secret.java
+
+
+Test your program to ensure that it is correct(i.e. The SecretTest class should work
+in the same way as it worked when the class Secret, that implemented the Caesar cipher algorithm, was used.
+
+NOTE:  (Part of the Scoring System like what with the Prelim programming Quiz)
+Always follow the conventions in naming identifiers in Java(i.e. Pascalcase, Camelcase).
+
+Provide proper documentation through comments on appropriate places in your source codes.
+Where appropriate, show the algorithm used.  Be as descriptive as possible.
+
+Indicate your name, course code and course number in multi-line comment before
+the class declaration.
+
+
+For your convenience, the necessary Interface, Reference Class and Test Classes a
+are provided in zipped project folder named  FinalExercise1. You can just unzipped and use the
+project folder such that you will not need to re-encode the given Interface and Classes.
+Take note that I may be using the same given Interface and Test Class
+when I will evaluate/check your programs.
+
+Therefore, FOR THIS EXERCISE, JUST UPLOAD YOUR MODIFIED SECRET CLASS ( i.e. just upload <YourName>Secret.java ).
+BECAUSE I ALREADY HAVE COPIES OF THE OTHER FILES.
+
+Note: (Requested Skill/Practice)
+Please ensure that you know how to create a package under a project.  In your next courses, you may be required to
+organize your source codes in packages. You must be ready for this.
+
+

@@ -1,0 +1,29 @@
+Number of Accounts: 25
+Plan           Account#  Phone#         Name                     Final Bill
+Leche Plan     4         09697905036    Ketchup, Papa            4298 
+Leche Plan     10        09697905042    Jin, Tama                1429 
+Leche Plan     11        09697905042    Mema, Mou                2598 
+Leche Plan     16        09697905047    Mia, Kahleezi            1392 
+LechePlan      22        09697173743    b, b                     1299 
+LechePlan      24        09691700119    Yaw, Na                  1299 
+Planet         1         09697905033    Sampu, Gwen              7999 
+Planet         6         09697905038    Elba, Kurt               3249 
+Planet         13        09697905044    Choun, Inday             33998
+Planet         18        09691501862    Star, Raw                5998 
+Planet         20        09694653198    B, Neneng                5998 
+Plangana       5         09697905037    Tomas, Mang              21319
+Plangana       8         09697905040    Moa, Na                  609  
+Plangana       12        09697905043    Beyber, Nate             599  
+Plangana       15        09697905046    Lopeypey, Christian      697  
+Plantutan      2         09697905034    May, May                 2699 
+Plantutan      3         09697905035    Jenos, Jun Jun           19049
+Plantutan      7         09697905039    Richie, Dennis           1249 
+Plantutan      9         09697905041    Fa, Ping                 73999
+Plantutan      14        09697905045    Choi, Enna               893  
+Plantutan      17        09693211762    Yuh, Mimi                1598 
+Plantutan      19        09693608287    Goku, San                1598 
+Plantutan      21        09698897790    Haveyou, Anywool         799  
+Plantutan      23        09693077673    Waa, Yokona              799  
+Plantutan      25        09691611099    a, b                     799  
+
+Total Bill: 196263
