@@ -1,0 +1,11 @@
+import HelloApp.HelloPOA;
+
+class HelloImpl extends HelloPOA{
+	public String sayHello() {
+		return "\nHello words !!\n";
+	}
+
+	public boolean isEven(int value){
+		return (value % 2 == 0);
+	}
+}
